@@ -5,15 +5,17 @@
 
 
 @layer components {
+
+  .card {
+    @apply max-w-3xl  bg-white rounded;
+  }
+
+  .dropdown {
+    @apply bg-white w-auto h-auto rounded text-gray-800 shadow-2xl;
+  }
+
   .btn {
     @apply rounded bg-green-700 w-auto h-6 pr-1 text-white text-sm;
-
   }
 }
 
-@layer utilities{
-
-  h2{
-    @apply text-2xl;
-  }
-}
